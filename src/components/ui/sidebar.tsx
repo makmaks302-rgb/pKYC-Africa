@@ -103,14 +103,7 @@ const SidebarItem = React.forwardRef<HTMLAnchorElement, SidebarItemProps>(
           <>
             <span className="flex-1 truncate">{label}</span>
             {itemBadge !== undefined && (
-              <span
-                className={cn(
-                  "ml-auto inline-flex h-5 min-w-[1.25rem] items-center justify-center rounded-full px-1 text-[11px] font-bold",
-                  isActive
-                    ? "bg-white text-blue-primary"
-                    : "bg-white/20 text-white/80"
-                )}
-              >
+              <span className="px-1 py-0.5 bg-red-600 text-white text-[9px] font-bold rounded-full">
                 {itemBadge}
               </span>
             )}
