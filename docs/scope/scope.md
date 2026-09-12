@@ -25,6 +25,7 @@ _These are recommendations to keep your build orderly, not requirements. Skip an
 | 12 | Investigation case workspace | Slice 7 | planned |
 | 13 | CSV import for customers and transactions | Slice 8 | planned |
 | 14 | Transaction monitoring rules and alerts | Slice 9 | planned |
+| 15 | Guide & Aide (onboarding & contextual help) | Foundation | planned |
 
 ## Foundations
 
@@ -114,6 +115,12 @@ Let institutions load practical customer and transaction files for onboarding su
 Apply a small configurable rules set to imported transactions so unusual activity can generate reviewable compliance alerts.
 **Done when:** transaction rules can flag suspicious patterns, alerts link back to customers and transactions, and analysts can review and disposition each alert.
 - [ ] Design it (spec): `/architect transaction monitoring rules and alerts`
+
+## Foundation: Guide & Aide
+
+### 15. Guide & Aide (onboarding & contextual help), ready to build
+Add a lightweight help system for new users: a Guide page showing the 7-step compliance workflow, contextual help panels on Risk/Screening/Alerts/Investigation pages, a quick help button in page headers, and an optional first-login onboarding modal.
+**Done when:** a "Guide & Aide" nav item appears in the sidebar, the guide page renders 7 steps with title/description/what-it's-for/what-to-do/what-happens-next, contextual help is available on Risk/Screening/Alerts/Investigation pages without leaving the page, the onboarding modal shows on first login with start/skip options, and all content is static (no AI, no backend).
 
 ## Deferred
 
